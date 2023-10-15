@@ -1,6 +1,4 @@
-Sure, here's a rephrased version of the provided Smart Contract and its description:
-
-**Smart Contract Overview:**
+# **Smart Contract Overview:**
 
 This is an introductory Solidity Smart Contract designed to illustrate the fundamental concepts of Solidity. It features three state variables:  tokenTitle,tokenSymbol, and totalSupplyAmount. Additionally, it employs a mapping (Address => uint) called " accountBalances" to associate addresses with their respective token balances. The contract includes two functions: "Mint" and "Burn," which perform the actions implied by their names. Minting increases the total token supply as well as the balance of the address that triggers the function with a specified value. The Burn function checks whether the caller has enough tokens and, if so, reduces the token balance of the caller and the total supply. 
 
